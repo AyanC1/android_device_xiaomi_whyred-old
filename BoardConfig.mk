@@ -49,9 +49,9 @@ BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
 TARGET_KERNEL_CONFIG := whyred-perf_defconfig
-#TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_CROSS_COMPILE := prebuilts/gcc/linux-86/aarch64/aarch64-linux-android-7.0-kernel/bin/aarch64-linux-android-
-#TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+#TARGET_KERNEL_CROSS_COMPILE := prebuilts/gcc/linux-86/aarch64/aarch64-linux-android-7.0-kernel/bin/aarch64-linux-android-
+TARGET_KERNEL_CLANG_COMPILE := true
 
 # Partitions
 BOARD_HAS_LARGE_FILESYSTEM := true
