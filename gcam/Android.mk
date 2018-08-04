@@ -4,7 +4,11 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := MGC
 LOCAL_MODULE_TAGS := optional
 <<<<<<< HEAD:gcam/Android.mk
+<<<<<<< HEAD:gcam/Android.mk
 LOCAL_SRC_FILES := prebuild/gcam.apk
+=======
+LOCAL_SRC_FILES := APK/Codex-v1.1.apk
+>>>>>>> 363aa75... whyred:codex: update the CodeX Updater:Codex/Android.mk
 =======
 LOCAL_SRC_FILES := APK/Codex-v1.1.apk
 >>>>>>> 363aa75... whyred:codex: update the CodeX Updater:Codex/Android.mk
