@@ -304,7 +304,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
+    MGC \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=1
 # IPv6
