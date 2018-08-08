@@ -102,3 +102,4 @@ sys.usb.rmnet.func.name=rmnet_bam
 
 #camera2api
 persist.camera.HAL3.enabled=1
+camera.hal1.packagelist=com.whatsapp

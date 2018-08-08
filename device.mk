@@ -305,8 +305,11 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     MGC \
+
+
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.HAL3.enabled=1
+    persist.camera.HAL3.enabled=1 \
+    camera.hal1.packagelist=com.whatsapp
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \
@@ -340,3 +343,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/xiaomi/whyred/treble.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
+
+# Kernel updater app
+PRODUCT_PACKAGES += \
+    Codex
