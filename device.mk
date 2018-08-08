@@ -306,7 +306,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MGC \
 
-
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=1 \
     camera.hal1.packagelist=com.whatsapp
