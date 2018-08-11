@@ -348,5 +348,5 @@ $(call inherit-product, device/xiaomi/whyred/treble.mk)
 $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
 
 # Kernel updater app
-PRODUCT_PACKAGES += \
-    Codex
+#PRODUCT_PACKAGES += \
+ #   Codex
