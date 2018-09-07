@@ -15,4 +15,4 @@
 # the License for the specific language governing 
 # permissions and limitations under the License.
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_whyred.mk
+    $(LOCAL_DIR)/syberia_whyred.mk
