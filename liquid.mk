@@ -43,14 +43,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEIMIFA release-keys"
 BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys
 
-
-#PRODUCT_BUILD_PROP_OVERRIDES += \
- #   PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.14.0.OEIMIFA release-keys" \
-  #  TARGET_DEVICE="whyred" \
-   # DEVICE_MAINTAINERS="AyanC1"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-#BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.14.0.OEIMIFA:user/release-keys
-
-#PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
- #   ro.product.model
