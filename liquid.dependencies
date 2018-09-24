@@ -1,0 +1,14 @@
+[
+  {
+    "repository":  "akhilnarang/whyred",
+    "target_path": "kernel/xiaomi/sdm660"
+  },
+  {
+    "repository":  "android_vendor_xiaomi_whyred",
+    "target_path": "vendor/xiaomi/whyred"
+  },
+  {
+    "repository": "vendor_xiaomi_MiuiCamera",
+    "target_path": "vendor/xiaomi/MiuiCamera"
+  }
+]
