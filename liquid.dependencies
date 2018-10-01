@@ -18,5 +18,9 @@
   {
     "repository": "external_ant-wireless_antradio-library",
     "target_path": "external/ant-wireless/antradio-library"
+  },
+  {
+    "repository": "clang-prebuilt",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-7.0.2"
   }
 ]
