@@ -1,26 +1,22 @@
 [
   {
     "repository":  "akhilnarang/whyred",
-    "target_path": "kernel/xiaomi/sdm660"
+    "target_path": "kernel/xiaomi/sdm660",
+    "revision": "pie"
   },
   {
     "repository":  "AyanC1/proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi/whyred"
+    "target_path": "vendor/xiaomi/whyred",
+    "revision": "pie"
   },
   {
     "repository": "jhenrique09/vendor_xiaomi_MiuiCamera",
-    "target_path": "vendor/xiaomi/MiuiCamera"
-  },
-  {
-    "repository": "PixelExperience-P/hardware_qcom_fm",
-    "target_path": "hardware/qcom/fm"
-  },
-  {
-    "repository": "PixelExperience-P/external_ant-wireless_antradio-library",
-    "target_path": "external/ant-wireless/antradio-library"
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "revision": "pie"
   },
   {
     "repository": "AyanC1/clang-prebuilt",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-7.0.2"
+    "target_path": "prebuilts/clang/host/linux-x86/clang-7.0.2",
+    "revision": "7.0.2"
   }
 ]
